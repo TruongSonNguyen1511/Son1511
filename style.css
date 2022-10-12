@@ -1,0 +1,75 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#content {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+#content .section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+.col-half {
+    width: 50%;
+}
+.col-full {
+    width: 100%;
+}
+.col {
+        float: left;
+        padding-left: 8px;
+        padding-right: 8px;
+}
+.contact-content {
+    margin-top: 48px;
+
+}
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.contact-info i[class*="fa fa-"] {
+    width: 30px;
+}
+.contact-form .form-control{
+padding: 10px;
+border: 1px solid #ccc;
+width: 100%;
+}
+.day-8px {
+    margin-top: 8px !important;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.day-16px {
+    margin-top: 16px !important;
+}
+.contact-form .form-submit-btn {
+    background-color:#000 ;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 16px;
+    float: right;
+
+
+
+}

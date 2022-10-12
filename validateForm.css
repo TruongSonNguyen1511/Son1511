@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+.wrapper{
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+}
+.header {
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+}
+.header h2 {
+    margin: 0;
+    text-align: center;
+}
+.form {
+    padding: 30px 40px; 
+}
+.information{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.information label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+    font-style: italic;
+}
+.information input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+.information input:focus {
+    outline: 0;
+    border-color: #777;
+}
+.form button {
+    background-color: #f0933c;
+    border: 1px solid #f0933c;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ffa600;
+    transition: 1s;
+}
+p{
+    color: #777;
+    font-size: 16px;
+    font-style: italic;
+}
+#chinhsach{ 
+    text-align: center;
+    display: block;
+    color: #176ebe;
+    font-style: italic;  
+    cursor: pointer;
+}
+#chinhsach:hover{
+    color: blue;
+    
+}
+p.exception{
+    border-top: 1px solid #a09c9c;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 27px;
+}
+span.exp{
+    background-color: black;
+    position: relative;
+    top: -11px;
+    padding: 0 5px;
+    text-align: center;
+    
+}
+h5{
+    text-align: center;
+    color: #a09c9c;
+}
+h5:hover{
+    cursor: pointer;
+    color: #ffa600;
+    transition: 1s;
+}
+.error{
+    color: red;
+}
+.success{
+    color: rgb(27, 201, 27);
+}
